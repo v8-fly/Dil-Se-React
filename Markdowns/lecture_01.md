@@ -4,4 +4,6 @@
    - Javascript async deffer concepts(Javascript info explain it best)
    - Add script.js file and separate createRoot and createElement
 
-2.
+2. Create element API props
+   - How to add id and custom properties (props) via create Element API
+   - Add a parent container and inside that 2 headings with React.CreateElement
