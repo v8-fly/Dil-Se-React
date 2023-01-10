@@ -41,10 +41,15 @@ const Heading2 = (
 //   [heading1, heading2]
 // )
 
-const Container = (
+const Container = () => (
   <div>
     {Heading1}
     {Heading2}
   </div>
 )
-root.render(Container)
+root.render(
+  <React.StrictMode>
+    <Container />
+    {/* You can also do {Container()} but this is bad do not do this */}
+  </React.StrictMode>
+)
