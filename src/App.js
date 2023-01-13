@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 
 const Heading1 = (
   <h1 id="heading123" key={1}>
-    DIL SE REACT ♥️♥️♥️
+    DIL SE REACT ❤️♥️♥️♥️❤️
   </h1>
 )
 
@@ -42,7 +42,7 @@ const Heading2 = (
 // )
 
 const Container = () => (
-  <div>
+  <div className="relative bg-red-400 mx-auto p-2 text-center font-mono font-bold text-darkBlue flex">
     {Heading1}
     {Heading2}
   </div>
